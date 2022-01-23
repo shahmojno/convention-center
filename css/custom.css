@@ -1,0 +1,8 @@
+.con-btn-book-now{
+    color: green;
+    border-radius: 8px;
+    padding: 9px 49px;
+    border: none;
+    background-image: linear-gradient(to bottom, #d3c9cd 0%, #e9d4dc 100%);
+
+}
