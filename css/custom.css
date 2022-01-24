@@ -1,8 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins&display=swap');
+
+body{
+    font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+margin: 0px;
+}
 .con-btn-book-now{
-    color: green;
+    color: blue;
     border-radius: 8px;
     padding: 9px 49px;
+    font-weight: 500;
     border: none;
-    background-image: linear-gradient(to bottom, #d3c9cd 0%, #e9d4dc 100%);
+    background-image: linear-gradient(to bottom, #f0e7ea 0%, #e9d4dc 100%);
 
 }
