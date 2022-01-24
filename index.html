@@ -13,6 +13,7 @@
     <script src="https://kit.fontawesome.com/408802a6ed.js" crossorigin="anonymous"></script>
     <!-- css custom style -->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="tost.js">
 </head>
 
 
@@ -115,6 +116,25 @@
 
     </header>
     <main>
+        <!-- live toast -->
+        <div class="d-flex justify-content-center align-items-center my-5">
+            <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+            <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="..." class="rounded me-2" alt="...">
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small>11 mins ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        Hello, world! This is a toast message.
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Our package -->
         <section class="container">
             <h2 class="d-flex justify-content-center align-items-center my-5">Our package
@@ -211,10 +231,10 @@
                     </div>
                 </div>
             </div>
-            <section>
+            <section class="container">
                 <h2 class="d-flex justify-content-center align-items-center my-5">Customer Satisfaction</h2>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
+                <div class="row mx-5 gy-4">
+                    <div class="col-12 col-md-6 col-lg-4 shadow p-3 mb-5 bg-body rounded">
                         <p>
                             In an interview, Julie Rice discussed how she wanted WeWork to have the same sentiment as
                             SoulCycle about its members by having members connect with each other and the brand connect
@@ -223,7 +243,7 @@
                         <img src="images/person 1.png" alt="">
                         <h4><span>Julie Rice</span> <br>Developer</h4>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4 shadow p-3 mb-5 bg-body rounded">
                         <p>
                             While Hsieh recent passed this year, this is the general philosophy at Zappos, an online
                             shoe and clothing retailer. In the opinion of Tony Hsieh and his company, a business should
@@ -232,7 +252,7 @@
                         <img src="images/person 2.png" alt="">
                         <h4><span>mantra</span>Banker<br></h4>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4 shadow p-3 mb-5 bg-body rounded">
                         <p>
                             Get closer than ever to your customers. So close that you tell them what they need well
                             before they realize it themselves.
